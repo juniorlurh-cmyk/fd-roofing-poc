@@ -4,20 +4,7 @@ import { SITE, tel, wa, mailto } from '../data/site';
 import { SERVICES } from '../data/services';
 import { Icon } from './Icons';
 import ChatWidget from './ChatWidget';
-
-function Topbar() {
-  return (
-    <div className="topline">
-      <div className="container">
-        <span>{SITE.city} · Gauteng</span>
-        <div className="topline-right">
-          <span>{SITE.hours}</span>
-          <a href={tel()}>{SITE.phoneDisplay}</a>
-        </div>
-      </div>
-    </div>
-  );
-}
+import EmergencyBanner from './EmergencyBanner';
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -125,7 +112,7 @@ export default function Layout() {
 
   return (
     <>
-      <Topbar />
+      <EmergencyBanner />
       <Header />
       <main>
         <Outlet />

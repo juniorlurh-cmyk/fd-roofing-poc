@@ -73,3 +73,60 @@ export const SERVICE_AREAS = [
   'Kilner Park', 'East Lynne', 'Queenswood', 'Riviera', 'Gezina',
   'Montana', 'Pretoria North', 'Centurion', 'Pretoria East', 'Wider Gauteng',
 ];
+
+// Representative imagery by roof type — licensed stock photography used to
+// illustrate the range of roofs worked on; not photos of specific jobs.
+export const ROOF_GALLERY = [
+  {
+    image: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1000&q=80',
+    alt: 'House with a grey slate-style shingled roof',
+    caption: 'Slate tiled',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?auto=format&fit=crop&w=1000&q=80',
+    alt: 'Modern house with a grey concrete tiled roof',
+    caption: 'Concrete tiled',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1770306924460-b0ff6c3719ae?auto=format&fit=crop&w=1000&q=80',
+    alt: 'Close-up of a corrugated steel roof edge against the sky',
+    caption: 'Steel / IBR',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1495777996677-48e41dae13d0?auto=format&fit=crop&w=1000&q=80',
+    alt: 'Flat concrete roof detail on a modern building',
+    caption: 'Flat concrete',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1716276012157-2b482bb344c3?auto=format&fit=crop&w=1000&q=80',
+    alt: 'Traditional thatched roof structure',
+    caption: 'Thatch (conversions)',
+  },
+];
+
+export const ROOF_FAQS = [
+  {
+    q: 'My roof is leaking right now — what do I do?',
+    a: `Call or WhatsApp ${'063 178 1159'} with photos of where the water is coming through. Leaks get worse with every rainfall, so the sooner we can get on the roof, the less damage there is to repair.`,
+  },
+  {
+    q: 'How much does a roof repair or waterproofing job cost?',
+    a: 'It depends on the roof — size, pitch, roof type and what\u2019s actually wrong. Every job gets a proper inspection first, then a written, itemised quote. No ballpark pricing over the phone.',
+  },
+  {
+    q: 'Do you work on flat concrete roofs, not just tiled roofs?',
+    a: 'Yes — flat concrete, steel/IBR, slate tiled and concrete tiled roofs are all covered, along with thatch-to-Harvey-tile conversions. Waterproofing is one of the most requested jobs on flat concrete roofs specifically.',
+  },
+  {
+    q: 'How long does a typical repair or waterproofing job take?',
+    a: 'Small repairs can be same-day or next-day once quoted. Full waterproofing or re-roofing jobs take longer depending on roof size and weather — this is confirmed in the written quote before work starts.',
+  },
+  {
+    q: 'Is the work guaranteed?',
+    a: 'The company states all work is guaranteed and above standard, with a letter of good standing available on request. Specific guarantee terms for your job are set out in the written quote.',
+  },
+  {
+    q: 'Do you work on both homes and businesses?',
+    a: 'Yes — residential and commercial roofs, across Kilner Park, East Lynne, Queenswood, Gezina, Montana, Pretoria North, Centurion, Pretoria East and wider Gauteng.',
+  },
+];

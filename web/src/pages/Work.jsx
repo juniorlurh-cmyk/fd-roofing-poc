@@ -1,6 +1,7 @@
 import FadeIn from '../components/FadeIn';
-import { PageHero, Callout } from '../components/Shared';
-import { SERVICES } from '../data/services';
+import { PageHero, Callout, Heading, Faq } from '../components/Shared';
+import Gallery from '../components/Lightbox';
+import { SERVICES, ROOF_GALLERY, ROOF_FAQS } from '../data/services';
 import { REVIEWS } from '../data/site';
 
 export default function Work() {
@@ -42,6 +43,25 @@ export default function Work() {
           </p>
         </div>
       </section>
+      <section className="section tint">
+        <div className="container">
+          <FadeIn>
+            <Heading
+              eyebrow="Every roof type"
+              title={<>Five roof types, <em>one standard.</em></>}
+              aside="Representative imagery of the roof types we work on — click any photo to view it larger."
+            />
+          </FadeIn>
+          <FadeIn>
+            <Gallery items={ROOF_GALLERY} columns={5} />
+          </FadeIn>
+          <p className="note">
+            Representative imagery by roof type — real job photography
+            replaces these once compiled from the company's archives.
+          </p>
+        </div>
+      </section>
+
       <section className="section dark">
         <div className="container">
           <FadeIn>
@@ -65,6 +85,22 @@ export default function Work() {
           </div>
         </div>
       </section>
+
+      <section className="section white">
+        <div className="container">
+          <FadeIn>
+            <Heading
+              eyebrow="Before you call"
+              title={<>Common <em>questions.</em></>}
+              aside="Honest answers — anything else, just ask."
+            />
+          </FadeIn>
+          <FadeIn>
+            <Faq items={ROOF_FAQS} />
+          </FadeIn>
+        </div>
+      </section>
+
       <Callout
         title={<>Next job could <em>be yours.</em></>}
         lead="Send the details — inspection and written quote are free."

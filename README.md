@@ -25,6 +25,8 @@ contractor in Kilner Park, Pretoria — built to a sellable standard.
 | Service-area list | Inferred from Pretoria geography | ⚪ Indicative |
 | Insights demand scores | Internal estimates for discussion | ⚪ Indicative — not audited |
 | Project photography | Stock images (Unsplash) | ⚪ Placeholder — replace with job photos |
+| Roof-type gallery on `/work` | Stock images per roof type (Unsplash) | ⚪ Representative — replace with real job photos |
+| FAQ content on `/work` | Written from company-stated facts + common industry questions | ⚪ Review before publishing |
 
 ## Explicitly NOT claimed
 
