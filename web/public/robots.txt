@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://juniorlurh-cmyk.github.io/fd-roofing-poc/sitemap.xml
